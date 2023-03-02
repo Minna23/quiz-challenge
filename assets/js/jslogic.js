@@ -1,9 +1,9 @@
-//quiz variables
+
 let currentQuestionIndex = 0;
 let time = 45;
 let timerID;
 
-//connecting HTML to quiz
+
 let questionsElement = document.getElementById("questions");
 let timerElement = document.getElementById("time");
 let choicesElement = document.getElementById("choices");
@@ -23,7 +23,6 @@ function startQuiz() {
   timerElement.textContent = time;
   getQuestion();
 }
-
 
 function getQuestion() {
   let currentQuestion = questions[currentQuestionIndex];
@@ -61,7 +60,6 @@ function questionClick() {
     feedbackElement.setAttribute("class", "feedback hide")
   }, 1000);
 
-
   currentQuestionIndex++;
   if (currentQuestionIndex === questions.length) {
     quizEnd();
@@ -73,8 +71,8 @@ function questionClick() {
 
 function quizEnd() {
   clearInterval(timerID);
-  let endScreenelement = document.getElementById("end-screen");
-  endScreenelement.removeAttribute("class");
+  let endScreenElement = document.getElementById("end-screen");
+  endScreenElement.removeAttribute("class");
   let finalScoreElement = document.getElementById("final-score");
   finalScoreElement.textContent = time;
   questionsElement.setAttribute("class", "hide");
@@ -90,7 +88,7 @@ function clockTick() {
 
 function saveHighScore() {
   let initials = initialElement.value.trim();
-  if(initials !=="") {
+  
     let highScores = JSON.parse(localStorage.getItem("highScores")) || [];
     let newScore = { 
       score: time,
@@ -99,9 +97,8 @@ function saveHighScore() {
   highScores.push(newScore);
   localStorage.setItem("highscores", JSON.stringify(highScores));
   window.location.href = "highscores.html";  
-  }
+  
 }
-
 
 function checkForEnter(event) {
   if(event.key === "Enter") {
