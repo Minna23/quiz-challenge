@@ -16,11 +16,13 @@ The requirements were the following:
 In this project I used 
 ## HTML, basic CSS, and JavaScript
 
-The deployed project:
+The deployed challenge:
+![image](https://user-images.githubusercontent.com/21089692/222565640-8bfaaf24-4d4b-4b7e-955a-1a94d38e8118.png)
 
 
-Link to the deployed project:
 
+Link to the deployed challenge:
+https://minna23.github.io/quiz-challenge/
 
 
 
