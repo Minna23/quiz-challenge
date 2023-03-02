@@ -24,6 +24,8 @@ The deployed challenge:
 Link to the deployed challenge:
 https://minna23.github.io/quiz-challenge/
 
+source of timer: https://zoom.us/rec/play/Q317oIbqILlOwTKDiEFnSWPiCpaxP0hNIlR27NA_bqiDcERrb0MgfO1hWaClD0WRBTXWxOUlXgTc0wf9.I_v80ae4yio15jDd?continueMode=true&_x_zm_rtaid=zYzkeqFdQFS7OGRRatxopA.1677793910729.a7330e88b57c22b82ae22ce4acf42717&_x_zm_rhtaid=782
+
 
 
 
